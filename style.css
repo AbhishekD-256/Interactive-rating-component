@@ -1,0 +1,88 @@
+body{
+    background-color:  hsl(216, 12%, 8%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{
+    position: relative;
+}
+.container{
+    max-width: 300px;
+    background:hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 30px;
+    /* position: absolute; */
+    /* display: none; */
+
+}
+.container>img{
+background-color: hsla(217, 12%, 63%, 0.153);
+padding: 15px;
+border-radius: 50%;
+}
+.rating-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.rating-container>button{
+    background-color: hsla(217, 12%, 63%, 0.153);
+    padding: 16px 20px ;
+    border-radius: 50%; 
+    border: none;
+    font-size: 1rem;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+.rating-container>button:hover{
+    background-color: hsl(216, 12%, 54%);
+    transition: all 200ms ease-in-out;
+    color: white;
+
+}
+.rating-container>button:focus{
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+}
+.submit-btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: all 500ms ease-in-out;
+}
+p{
+    color:hsl(217, 12%, 63%) ;
+}
+/* thank you container*/
+
+
+.conatiner-hidden{
+    max-width: 300px;
+    background:hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    display: none;
+}
+
+.thankyou{
+    background-color:hsla(216, 12%, 54%, 0.361) ;
+    width:max-content;
+    margin: 30px auto;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color:hsla(25, 75%, 43%, 0.934) ;
+}
